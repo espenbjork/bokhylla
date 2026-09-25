@@ -1,0 +1,14 @@
+data/*.sqlite3
+data/backups/
+data/server.log
+data/server.pid
+data/library.json
+data/files/
+data/imports/
+imports/audible/
+physical_shelf_manifest.json
+static/covers/
+__pycache__/
+*.pyc
+.DS_Store
+Prosjektstatus.md
