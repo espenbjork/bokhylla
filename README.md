@@ -51,3 +51,7 @@ Serveren lytter bare på 127.0.0.1, og alle endringer krever en tilfeldig nøkke
 ## Teknologi
 
 Python, SQLite, HTML, CSS og JavaScript uten rammeverk.
+
+## Visningskopi
+
+`python3 build_demo.py <mappe>` lager en statisk kopi som kan ligge på GitHub Pages. Den tar med tittel, forfatter, serie, sjanger, format, lesestatus, år og fremdrift, og nedskalerte omslag. Notater, filstier, kildefoto og den daglige lytteloggen fra Audible blir igjen. `demo/demo.js` svarer på appens API-kall fra `library.json`. Sortering og hylleplassering virker for den som ser på, men redigering og import er slått av.
